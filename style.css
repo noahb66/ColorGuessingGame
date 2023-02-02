@@ -17,14 +17,17 @@ body{
 
 #header {
     background-color: #2C8E99;
+    font-family: "Raleway", sans-serif;
     text-align: center;
     font-size: 30px;
     padding-bottom: 20px;
     padding-top: 30px;
+    color: white;
 }
 
 .subHeader {
     height: 30px;
+    font-family: "Raleway", sans-serif;
     text-align: center;
     background-color: white;
     padding: 1%;
