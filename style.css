@@ -1,0 +1,62 @@
+/*
+    header
+
+    subheader
+
+    main
+
+        toprow (1, 2, 3)
+
+        bottomrow (4, 5, 6)
+ */
+
+body{
+    background-color: #232323;
+}
+
+
+#header {
+    background-color: #2C8E99;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.subHeader {
+    height: 30px;
+    text-align: center;
+    background-color: white;
+    padding: 1%;
+}
+
+.main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.squares{
+    border-radius: 20px;
+    width: 30%;
+    background-color: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    transition: background .5s;
+    -webkit-transition: background .5s;
+    -moz-transition: background .5s;
+}
+
+#newColors {
+    width: 150px;
+    height: 100%;
+    font-size: 1.5em;
+    outline: none;
+}
+
+#message {
+    font-size: 1.5em;
+    display: inline-block;
+    width: 20%;
+}
