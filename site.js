@@ -56,10 +56,6 @@ resetButton.addEventListener("click", function() {
 });
 
 function reset() {
-    // need to get new color array
-    // need to get header back to original color
-    // need to change header message
-    // setting up the color we need to guess
     setSquares();
     setColors();
     correctColor = getCorrectAnswer();
